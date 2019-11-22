@@ -12,6 +12,8 @@
     <Bastille />
     <Ghost />
     <Textarea />
+    <Riddle />
+    <Tree />
   </div>
 </template>
 
@@ -29,6 +31,8 @@ import Currencies from "@/components/Currencies.vue";
 import Bastille from "@/components/Bastille.vue";
 import Ghost from "@/components/Ghost.vue";
 import Textarea from "@/components/Textarea.vue";
+import Riddle from "@/components/Riddle.vue";
+import Tree from "@/components/Tree.vue";
 
 export default {
   name: "home",
@@ -44,7 +48,9 @@ export default {
     Currencies,
     Bastille,
     Ghost,
-    Textarea
+    Textarea,
+    Riddle,
+    Tree
   }
 };
 </script>
